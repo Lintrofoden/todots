@@ -1,0 +1,46 @@
+.content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    /* text-align: center; */
+}
+
+textarea{
+    resize: none;
+    width: 400px;
+    height: 100px;
+    border-radius: 10px;
+    overflow: hidden;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 15px;
+}
+
+.textarea_and_button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.todo_list{
+    display: grid;
+    gap: 5px;
+}
+
+.todo_item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.text{
+    max-width: 400px;
+    overflow-wrap: break-word;
+}
+
+.button_block{
+    margin-left: 20px;
+}
